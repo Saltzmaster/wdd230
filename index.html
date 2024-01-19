@@ -3,17 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 230 | Ty Saltzgiver</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development assignment portal">
+  <meta name="author" content="Ty Saltzgiver">
+    <title>Ty Saltzgiver - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <img src="img/MyPic.jpeg" alt="Profile Picture">
+        <span>Ty Saltzgiver</span>
+
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#chamber">Chamber</a>
+        <a href="#site-plan">Site Plan</a>
+        <a href="#form">Form</a>
+    </nav>
     <main>
-        <h1>Ty Saltzgiver</h1>
-        <h2>Computer Science Major</h2>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <div class="card-container">
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+                <li>Week 1</li>
+                <li>Week 2</li>
+                <li>Week 3</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Information</h2>
+            <ul>
+                <li>Kenai, Alaska</li>
+                <li>6°F - Mostly Clear</li>
+                <li>Page Visits: 3</li>
+            </ul>
+        </section>
+    </div>
     </main>
-    <footer></footer>
-    <script src="scripts/index.js"></script>
+    <footer>
+        <section id="year"></section>
+        <p>Ty Saltzgiver</p>
+        <p>United States</p>
+        <section id="lastModified"></section>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>

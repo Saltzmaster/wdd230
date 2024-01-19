@@ -1,0 +1,27 @@
+@media only screen and (min-width: 768px) {
+  header img {
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+header span {
+    font-size: 2em;
+}
+
+nav {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  width: 48%;
+  margin: 10px;
+}
+  }
+  

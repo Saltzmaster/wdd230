@@ -1,0 +1,53 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: darkgrey;
+    font-size: 1.2em;
+}
+
+p, li {
+    color: #7F3B72;
+}
+
+header {
+    background-color: #BC2A5E;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h3 {
+    color: #115A97;
+}
+
+p.typography {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #7F3B72;
+}
+
+.color-schema {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+img {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+#color1 { background-color: #115A97; }
+#color2 { background-color: #BC2A5E; }
+#color3 { background-color: #7F3B72; }
+#color4 { background-color: #FFFFFF; }

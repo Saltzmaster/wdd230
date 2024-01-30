@@ -12,7 +12,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background-color: #468C98;
+  background-color: #6c82ca;
   color: #fff;
   align-items: center;
   padding: 20px;
@@ -84,8 +84,8 @@ li {
 }
 
 footer {
-  background-color: #468C98;
-  color: black;
+  background-color: #6c82ca;
+  color: #000000;
   text-align: center;
   padding: 10px;
 }

@@ -12,7 +12,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background-color: #6c82ca;
+  background-color: #031D44;
   color: #fff;
   align-items: center;
   padding: 20px;
@@ -31,17 +31,75 @@ header span {
   font-weight: bold;
 }
 
+.dark-mode {
+  background-color: #1A1423;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.dark-mode:hover {
+  background-color: #fff;
+  color: #1A1423;
+}
+
+body.dark {
+  background-color: #1A1423;
+  color: #d1b894;
+}
+
+body.dark h1 {
+  color: #fff; 
+}
+
+body.dark .card {
+  background-color: #333; 
+  border: 1px solid #555; 
+}
+
+body.dark .card h2 {
+  background-color: #777; 
+}
+
+body.dark a {
+  color: #fff; 
+}
+
 nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1A1423; 
+  background-color: #2d503e; 
   padding: 10px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+}
+
+nav.show-menu a {
+  display: block;
+}
+
+.menu-icon {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2d503e;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menu-icon:hover {
+  background-color: #fff;
+  color: #2d503e;
 }
 
 main {
@@ -83,9 +141,14 @@ li {
   margin-bottom: 8px;
 }
 
+a {
+  text-decoration: underline;
+  color: #0300ca;
+}
+
 footer {
-  background-color: #6c82ca;
-  color: #000000;
+  background-color: #031D44;
+  color: #ffffff;
   text-align: center;
   padding: 10px;
 }
@@ -93,4 +156,10 @@ footer {
 #year, #lastModified {
   font-size: 0.8em;
   margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  nav a {
+    display: none;
+  }
 }

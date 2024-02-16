@@ -87,6 +87,28 @@ nav.show-menu a {
   display: block;
 }
 
+.temple {
+  position: relative;
+}
+
+.temple img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tName {
+  color: black;
+  line-height: 1em;
+  font-size: small;
+  font-weight: bolder;
+  padding: 1.5%;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
 .menu-icon {
   font-size: 1.5em;
   cursor: pointer;
@@ -103,7 +125,7 @@ nav.show-menu a {
 }
 
 main {
-  max-width: 800px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -144,6 +166,12 @@ li {
 a {
   text-decoration: underline;
   color: #0300ca;
+}
+
+#map {
+  margin: 0 2.5%;
+  width: 95%;
+  height: 250px;
 }
 
 footer {

@@ -27,5 +27,15 @@ nav {
   width: 48%;
   margin: 10px;
 }
-  }
+
+.tName {
+  left: 75%;
+  backdrop-filter: blur(5px);
+  font-size: large;
+}
+
+#map {
+  height: 375px;
+}
+}
   

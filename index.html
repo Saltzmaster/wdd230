@@ -29,6 +29,14 @@
         <a href="#form">Form</a>
     </nav>
     <main>
+        <div class="temple">
+            <picture>
+                <source media="(max-width: 500px)" srcset="img/Snowflake-Small.webp">
+                <source media="(max-width: 1000px)" srcset="img/Snowflake-Medium.webp">
+                <img src="img/snowflakeTemple.jpg" alt="Snowflake Arizona Temple">
+            </picture>
+            <span class="tName">Snowflake Arizona Temple</span>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="card-container">
         <section class="card">
@@ -45,10 +53,13 @@
             <ul>
                 <li>Kenai, Alaska</li>
                 <li>6°F - Mostly Clear</li>
-                <li>Page Visits: 3</li>
+                <li>Page Visits: <span id="visits">0</span></li>
             </ul>
         </section>
     </div>
+    <div>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25901.82813057479!2d-151.251042!3d60.582905000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56b6e7df8f1a1cb5%3A0xf05e67cf202aa53!2sKenai%2C%20AK%2099611%2C%20USA!5e0!3m2!1sen!2suk!4v1644920270416!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>         
     </main>
     <footer>
             <p id="year"></p>

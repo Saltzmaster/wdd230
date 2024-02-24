@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  table#accountTable tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  table#accountTable tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  table#accountTable th {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  #accountTable {
+    margin: auto;
+    width: 75%;
+}

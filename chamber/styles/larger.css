@@ -22,4 +22,11 @@
     .discover img:hover {
         filter: contrast(150%);
     }
+
+    main.join-form {
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    flex-direction: row;
+    }
 }

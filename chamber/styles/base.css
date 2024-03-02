@@ -142,3 +142,84 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+
+main.join-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 40px; 
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: inline-block; 
+    color: #000;
+    margin-bottom: 5px; 
+    text-align: left; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #236927;
+}
+
+form input:required,
+form select:required {
+    border-right: solid 6px #f00; 
+}
+
+form input:required:valid,
+form select:required:valid {
+    border-right: solid 6px #0f0; 
+}
+form select:required
+
+.membership-benefits {
+    line-height: 50rem;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 200px;
+    width: 30%;
+}
+
+.membership-benefits h2 {
+    color: #2c2c2c;
+}
+
+.thankyou {
+    background-color: #7F3B72;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+}

@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --border-radius: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, nav, main, footer {
+    margin: 10px;
+}
+
+fieldset {
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius);
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, output {
+    margin-bottom: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius);
+    padding: 5px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form input:required {
+    border-left: solid 4px red;
+}
+
+form input:required:valid {
+    border-left: solid 4px green;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Lab - Form Validation</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <span>Course Home Page Header</span>
+    </header>
+    
+    <nav>
+        <button class="menu-icon">&#9776;</button>
+        <a href="index.html">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="week01/chamber-site-plan.html">Site Plan</a>
+        <a href="form.html">Form</a>
+    </nav>
+
+    <main>
+        <form action="record.html" method="get">
+            <fieldset>
+                <legend>User Information</legend>
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" pattern="^[A-Za-z0-9]{8,}$" title="Password must be at least 8 characters long and can only be alphanumeric" required>
+                </div>
+                <div>
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required>
+                </div>
+                <div>
+                    <label for="page_rating">Page Rating:</label>
+                    <input type="range" id="page_rating" name="page_rating" min="1" max="10" step="1" oninput="document.getElementById('rating_output').innerHTML = this.value;">
+                    <output id="rating_output">5</output>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p id="year"></p>
+        <p>Ty Saltzgiver</p>
+        <p>United States</p>
+        <p id="lastModified"></p>
+</footer>
+<script src="scripts/getDates.js"></script>
+</body>
+</html>

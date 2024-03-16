@@ -47,3 +47,31 @@ function updateVisitCounter() {
 window.onload = function() {
     updateVisitCounter();
 };
+
+// Function to fetch weather data from an API
+function getWeather(apiKey, location) {
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=imperial`; // Using OpenWeatherMap API
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        const weather = data.weather[0];
+        const temperature = Math.round(data.main.temp);
+        const description = weather.main; // Change weather.description to weather.main
+        const iconCode = weather.icon;
+
+        // Update the weather element with the fetched data
+        document.getElementById("weather").innerHTML = `
+          <span>${temperature}&deg;F</span> - 
+          <img src="http://openweathermap.org/img/wn/${iconCode}@2x.png" alt="${description}">
+          ${description}
+        `;
+      })
+      .catch(error => console.error(error));  // Handle errors
+  }
+
+  // Replace with your actual OpenWeatherMap API key
+  const apiKey = "29083a07ba728d7767182df8c0008f29";
+
+  // Get weather data for Kenai, AK
+  getWeather(apiKey, "Kenai, AK, USA");

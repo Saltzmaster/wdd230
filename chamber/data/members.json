@@ -1,0 +1,112 @@
+[
+    {
+      "name": "Acme Corporation",
+      "address": {
+        "street": "123 Main Street",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "phone": "+1 (555) 555-5555",
+      "website": "www.acmecorporation.com",
+      "image": "acme_logo.png",
+      "membershipLevel": "Gold",
+      "founded": 1978,
+      "industry": "Manufacturing"
+    },
+    {
+      "name": "Green Tech Solutions",
+      "address": {
+        "street": "456 Green Avenue",
+        "city": "Ecoville",
+        "state": "NY",
+        "zip": "54321"
+      },
+      "phone": "+1 (888) ECO-TECH",
+      "website": "www.greentechsolutions.com",
+      "image": "greentech_icon.svg",
+      "membershipLevel": "Silver",
+      "services": ["Solar Panel Installation", "Energy Audits"]
+    },
+    {
+      "name": "World Travel Agency",
+      "address": {
+        "street": "789 Travel Plaza Drive",
+        "city": "Globeville",
+        "state": "TX",
+        "zip": "77777"
+      },
+      "phone": "+1 (800) WORLD-TRIP",
+      "website": "www.worldtravelagency.com",
+      "image": "worldtravel_photo.jpg",
+      "membershipLevel": "Bronze",
+      "currentDeals": [
+        {
+          "destination": "Paris, France",
+          "discount": 10
+        },
+        {
+          "destination": "Cancun, Mexico",
+          "discount": 15
+        }
+      ]
+    },
+    {
+      "name": "Healthy Eats",
+      "address": {
+        "street": "1011 Fresh Food Lane",
+        "city": "Wellville",
+        "state": "CA",
+        "zip": "90210"
+      },
+      "phone": "+1 (310) EAT-WELL",
+      "website": "www.healthyeats.com",
+      "image": "healthyeats_logo.svg",
+      "membershipLevel": "NP",
+      "cuisine": "Healthy & Organic",
+      "averageRating": 4.8
+    },
+    {
+      "name": "Technovation Inc.",
+      "address": {
+        "street": "1234 Innovation Way",
+        "city": "Silicon Valley",
+        "state": "CA",
+        "zip": "98765"
+      },
+      "phone": "+1 (650) TECH-NOW",
+      "website": "www.technovationinc.com",
+      "image": "technovation_icon.png",
+      "membershipLevel": "Gold",
+      "specialties": ["Software Development", "Cloud Computing"]
+    },
+    {
+      "name": "Pawsitive Pets",
+      "address": {
+        "street": "1314 Happy Tails Drive",
+        "city": "Furhaven",
+        "state": "OH",
+        "zip": "44444"
+      },
+      "phone": "+1 (440) PUP-LOVE",
+      "website": "www.pawsitivepets.com",
+      "image": "pawsitivepets_logo.jpg",
+      "membershipLevel": "Silver",
+      "services": ["Pet Grooming", "Dog Walking"]
+    },
+    {
+      "name": "Fashion Avenue",
+      "address": {
+        "street": "1415 Style Street",
+        "city": "Trendville",
+        "state": "NY",
+        "zip": "10001"
+      },
+      "phone": "+1 (212) FASHION",
+      "website": "www.fashionavenue.com",
+      "image": "fashionavenue_ad.jpg",
+      "membershipLevel": "Bronze",
+      "currentPromotions": ["Free Shipping on Orders Over $50"]
+    }
+  ]
+      

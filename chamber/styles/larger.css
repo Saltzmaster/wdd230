@@ -29,4 +29,13 @@
     max-width: 1200px;
     flex-direction: row;
     }
+
+    .about {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .about {
+        padding: .5rem;
+    }
 }

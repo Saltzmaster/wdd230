@@ -74,13 +74,20 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2d503e; 
-  padding: 10px;
+  background-color: #2d503e;
 }
 
 nav a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
   color: white;
   text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #3d835f;
 }
 
 nav.show-menu a {
